@@ -6,7 +6,7 @@ const routes = require('./routes');
 //../ volta uma pasta ./ referencia a msm pasta que index esta
 const app = express();
 app.use(cors());
-//teste1
+//teste
 app.use(express.json());
 app.use(routes);
 //comentarios
@@ -22,6 +22,6 @@ app.use(routes);
 
 
 
-app.listen(process.env.PORT ||3333);
+app.listen(3333);
 //a aplicação está ouvindo a porta 3333
 // váriavel app carrega framework express está ouvindo a porta 3333
