@@ -9,6 +9,7 @@ app.use(cors());
 
 app.use(express.json());
 app.use(routes);
+
 //deve ser semrpe abaixo do json
 //instancia a aplicação
 //define uma várivel constante chamada app para carregar framwork express
@@ -21,6 +22,6 @@ app.use(routes);
 
 
 
-app.listen(3333);
+app.listen(process.env.PORT ||3333);
 //a aplicação está ouvindo a porta 3333
 // váriavel app carrega framework express está ouvindo a porta 3333
