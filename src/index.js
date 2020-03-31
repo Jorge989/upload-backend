@@ -6,7 +6,7 @@ const routes = require('./routes');
 //../ volta uma pasta ./ referencia a msm pasta que index esta
 const app = express();
 app.use(cors());
-//teste
+//teste1
 app.use(express.json());
 app.use(routes);
 //comentarios
