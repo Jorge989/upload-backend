@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.json());
 app.use(routes);
-
+//comentarios
 //deve ser semrpe abaixo do json
 //instancia a aplicação
 //define uma várivel constante chamada app para carregar framwork express
